@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         .xyz{
+            color: #e67300;
+            color: #9999ff;
+            color: #ffe6cc;
+            color: #ffee00;
+        }
+        body{
+            margin: 0px;
+            padding: 0px;
+            background-color: #ffe6cc ;
+        }
+        .navbar{
+            background-color: #e67300;
+            padding: 40x;
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+
+        }
+        .navbar-brand{
+            margin:5px;
+            align-items: center;
+        }
+        .navbar-icon{
+            height: 50px;
+            border-radius: 50%;
+           background-color:goldenrod;
+           padding: 5px;
+          margin-top: 5px;
+           margin-left: 10px;
+        }
+        .navbar-menu{
+            font-size: 20px;
+            font-weight: bold;
+            margin-left: 10px;
+            cursor: pointer;
+            background-color:#ffe6cc;
+            padding:5px 20px ;
+            border-radius: 20px;
+         margin-left: 60px;
+        margin-top: 20px;
+            
+        }
+        .navbar-menu-container{
+            margin-left: 200px;
+            margin-top: 30px;
+            align-items: center;
+            
+            margin-bottom: 10px;
+        }
+        .navbar-menu:hover{
+background-color: #e67300;
+box-shadow: 0px 0px 5px 2px #fff;
+padding: 7px 25px;
+transition: 0.5s;
+  }
+  .brand-name{
+    font-family: 'Franklin Gothic Medium';
+    font-size: 30px;
+    color: #ffe6cc;
+   text-align: center;
+    font-weight: bold;
+    margin-left: 10px;
+    
+}
+.header-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.shop-img{
+    width: 500px;
+    margin: 20px;
+}
+.header-title{
+    font-size: 50px;
+    color: #e67300;
+}
+.header-description{
+    font-size: 30px;
+    color: black;
+}
+.btn{
+font-size: 20px;
+font-weight: bold;
+background-color: #e67300;
+color: #fff;
+padding: 10px 20px;
+border-radius: 20px;
+border: none;
+margin-top: 20px;
+cursor: pointer;
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+.btn:hover{
+background-color:  #ffe6cc;
+box-shadow: 0px 0px 5px 2px  #e67300;
+ color: black;
+transition: 0.2s;
+}
+.features{
+    font-size: 50px;
+    color: #e67300;
+    text-align: center;
+    margin-top: 50px;
+     
+}
+.features-card{
+    width: 300px;
+    padding: 10px;
+    margin: 10px;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+    position: relative;
+    
+}
+.ico-features{
+    font-size: 50px;
+    position: absolute;
+    top: -40px;  
+    left: 120px;
+   background-color:white;
+     padding: 10px;
+     border: 1px none#e67300;
+    border-radius: 50%;
+    color: #e67300; 
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+    width: 60px;
+    text-align: center;
+}
+.features-title{
+    text-align: center;
+    color: #e67300;
+    font-size: 22px;
+} 
+.features-description{
+    text-align: center;
+}
+ .features-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 50px;
+ }
+ .cake-heading{
+    font-size: 50px;
+    text-align: center;
+    color: #e67300;
+    margin-top: 50px;
+ }
+ .cake-card{
+    background-color: #fff;
+    width: 300px;
+    padding: 40px 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+ }
+ .cake-image{
+    height: 150px;
+    display: block;
+   margin: 5px auto;  
+filter: drop-shadow( 0px 0px 10px #e67300);
+
+ }
+
+ .cake-title{
+    font-family: 25px;
+    text-align: center;
+    color: #e67300;
+ }
+ .cake-price{
+    font-size: 20px;
+    text-align: center;
+ }
+ .cake-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+ }
+ .footer{
+    background-color: #e67300;
+    height: 40px;
+    padding: 10px;
+    margin: 10px;
+     display: flex;
+     flex-wrap: wrap;justify-content: space-around;
+     position: relative;
+
+ }
+  
+
+ .footer-icon{
+width: 30px;
+  }
+ .info{
+    font-size: 20px;
+ }
+@media only screen and (max-width:600px)
+{
+.navbar-menu-container{
+    margin-left: auto;
+    margin-right:auto;
+}
+.navbar{
+   flex-direction: column; 
+   margin: 10px;
+   width: 100%;
+   text-align: center;
+}
+.navbar-menu{
+    
+    display: block;
+}
+.shop-img{
+    width: 250px;
+ }
+ .header-title{
+    font-size: 30px;
+ }
+ .header-description{
+    font-size: 20px;
+ }
+ .btn{
+    font-size: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+ }
+ .features-card{
+    margin-top: 80px;
+  }
+  .cake-card{
+    background-color: #fff;
+    width: 150px;
+    padding: 20px 10px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+ }
+ .cake-image{
+    height: 80px;
+    display: block;
+   margin: 2px auto;  
+filter: drop-shadow( 0px 0px 10px #e67300);
+}
+}
+@media only screen and(min-width:601px) and (max-width:800px){
+    .navbar-menu-container{
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+    }
+    .btn{
+        font-size: 25px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .features-card{
+     margin-top: 100px;
+  }
+  .cake-card{
+    background-color: #fff;
+    width: 220px;
+    padding: 30px 15px;
+    margin: 15px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+ }
+ .cake-image{
+    height: 110px;
+    display: block;
+   margin: 3px auto;  
+filter: drop-shadow( 0px 0px 10px #e67300);
+}
+}
+@media only screen and(min-width:801px) and (max-width:1400px){
+    .features-card{
+        margin-top: 100px;
+    }
+    .cake-card{
+    background-color: #fff;
+    width: 220px;
+    padding: 30px 15px;
+    margin: 15px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+ }
+ .cake-image{
+    height: 110px;
+    display: block;
+   margin: 3px auto;  
+filter: drop-shadow( 0px 0px 10px #e67300);
+}
+}
+    </style>
+</head>
+<body>
+    <div class="navbar">
+
+        <div class="navbar-brand"> 
+        <img src="./images/cake-log.png" class="navbar-icon"/>
+<samp class="brand-name"> Ritu's cake studio </samp>
+</div>
+<div class="navbar-menu-container"> 
+<samp class="navbar-menu"><a href="./pages/home.html">🏠</a>Home</samp>
+<samp class="navbar-menu">About</samp>
+<samp class="navbar-menu">Services</samp>
+<samp class="navbar-menu"><a href="./pages/home.html">📞</a>Contact</samp>
+</div>
+    </div> 
+<div class="header-container">
+    <div> <img src="./images/shop-img.png"class="shop-img"/>
+              </div> 
+          <div>      
+      <h1 class="header-title"> We Bake's your dream's 🎂</h1>
+      <p class="header-description">Order your favourie and freshly backed cake now! </p>  
+      <button class="btn" type="button">Order now </button>
+    </div>
+        </div>
+         
+                 
+            <h1 class="features">Why choose us?</h1>
+             
+            <div class="features-container"> 
+         
+            <div class="features-card">
+                <i class="fa-solid fa-truck ico-features"></i>
+                <h3 class="features-title">Free delivery</h3>
+                <p class="features-description">  free delivery within 10km of our shop radius</p>
+            </div>
+     
+     <div class="features-card">
+        <i class="fa-solid fa-egg ico-features"></i> 
+        <h3 class="features-title"> Egg less</h3>
+        <p class="features-description"> we also provide egg less and suger free cake</p>
+    </div>
+
+    <div class="features-card">
+          <i class="fa-solid fa-kitchen-set ico-features"></i>
+        <h3 class="features-title">Unique</h3>
+        <p class="features-description">you can customise your cake as you reqired</p>
+        
+    </div>
+
+       
+    <div class="features-card">
+<i class="fa-solid fa-fire-burner ico-features"></i>
+        <h3 class="features-title"> freshly backed cake</h3>
+        <p class="features-description"> Our cakes are freshly backed and delivered to you within 4 hours</p>
+    </div> 
+    
+</div>
+ 
+<h1 class="cake-heading">Our Cake's</h1>
+<div class="cake-container">
+    <div class="cake-card">
+        <img src="./images/cake.png" class="cake-image">
+        <h3 class="cake-title">Mix-fruit cake</h3>
+        <p class="cake-price">500/-</p>
+        <button class="btn">order now</button>
+    </div>
+    <div class="cake-card">
+        <img src="./images/cupcake.png" class="cake-image">
+        <h3 class="cake-title">Cupcake</h3>
+        <p class="cake-price">50/-</p>
+        <button class="btn">order now</button>
+    </div>
+    <div class="cake-card">
+        <img src="./images/chocolate-fudge.png" class="cake-image">
+        <h3 class="cake-title">Chocolate-fudge</h3>
+        <p class="cake-price">150/-</p>
+        <button class="btn">order now</button>
+    </div>
+    <div class="cake-card">
+        <img src="./images/tiramisu.png" class="cake-image">
+        <h3 class="cake-title">Tiramisu</h3>
+        <p class="cake-price">300/-</p>
+        <button class="btn">order now</button>
+    </div>
+    <div class="cake-card">
+        <img src="./images/hot-chocolate.png" class="cake-image">
+        <h3 class="cake-title">Hot-chocolate</h3>
+        <p class="cake-price">220/-</p>
+        <button class="btn">order now</button>
+    </div>
+    <div class="cake-card">
+        <img src="./images/cookies.png" class="cake-image">
+        <h3 class="cake-title">Cookies</h3>
+        <p class="cake-price">250/-</p>
+        <button class="btn">order now</button>
+    </div>
+    
+</div>
+<div class="footer">
+    <div class="info">
+         
+        <a href="mailto:ritikmahukhaye2003@gmail.com"> <img src="./images/gmail.png"class="footer-icon"/></a>Mail
+    </div> 
+    <div class="info">
+         
+        <a href="tell:9673497994"><img src="./images/phone-call.png"class="footer-icon"/></a>Contact us
+</div>
+</div>
+
+
+<script src="https://kit.fontawesome.com/2ba39bdacf.js"
+crossorigin="anonymous"></script>           
+</body>
+</html>
